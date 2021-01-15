@@ -68,7 +68,7 @@ const form = {
       label: 'State',
       id: 'state',
       definition: 'Please provide your state', sourceList: states,
-      dependencies: { state: state => state && state.length !== 0 }
+      dependencies: { state: city => city && city.length !== 0 }
     },
     {
       type: 'select',
@@ -84,7 +84,7 @@ const form = {
       definition: 'Please provide your zipcode',
       dependencies: {
         state: state => state && state.length !== 0,
-        country: country => country && 'code' in country
+        country: country => country?.code === 'US' //polyfill me
       }
     },
   ],
