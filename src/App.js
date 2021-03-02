@@ -224,7 +224,7 @@ function App() {
           <Button
             variant="contained"
             color="primary"
-            // disabled={progress.remaining !== 0}
+            disabled={progress.remaining !== 0}
             style={{
               minWidth: "200px",
               fontFamily: "Fjalla One, Sans-serif",
