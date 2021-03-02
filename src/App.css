@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.show_true {
+  opacity: 1;
+  transition: height 0.3s, opacity 0.1s 0.3s linear;
+  height: 56px;
+}
+.show_false {
+  opacity: 0;
+  transition: height 0.3s 0.1s, opacity 0.1s linear;
+  height: 0px;
+}
+
+.MuiCheckbox-root {
+  padding: 0 9px !important;
+}
+
+/* .fadeInOut {
+  animation: fadeIn ease-in-out 0.3s;
+  -webkit-animation: fadeIn ease-in-out 0.3s;
+  -moz-animation: fadeIn ease-in-out 0.3s;
+  -o-animation: fadeIn ease-in-out 0.3s;
+  -ms-animation: fadeIn ease-in-out 0.3s;
+  }
+  @keyframes fadeIn {
+  0% {height:0px; opacity: 0;}
+  80% {height:72px; opacity: 0;}
+  100% {height:72px; opacity: 1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {height:0px; opacity: 0;}
+    80% {height:72px; opacity: 0;}
+    100% {height:72px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {height:0px; opacity: 0;}
+    80% {height:72px; opacity: 0;}
+    100% {height:72px; opacity: 1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {height:0px; opacity: 0;}
+    80% {height:72px; opacity: 0;}
+    100% {height:72px; opacity: 1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {height:0px; opacity: 0;}
+    80% {height:72px; opacity: 0;}
+    100% {height:72px; opacity: 1;}
+  } */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
