@@ -42,6 +42,7 @@ function CartaTextField(props) {
         variant="outlined"
         size="small"
         autoComplete="nope"
+        style={{ maxWidth: props.maxWidth }}
       />
 
       {props.definition && props.show && (

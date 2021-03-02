@@ -176,6 +176,7 @@ function App() {
                     onChange={handleChange}
                     mask={fieldProps.mask}
                     show={show}
+                    maxWidth="560px"
                   />
                 );
 
